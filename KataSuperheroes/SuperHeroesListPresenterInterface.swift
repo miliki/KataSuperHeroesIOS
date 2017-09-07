@@ -1,0 +1,4 @@
+protocol SuperHeroesListPresenterInterface
+{
+    func viewLoaded()
+}

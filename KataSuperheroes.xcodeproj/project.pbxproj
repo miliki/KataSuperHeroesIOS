@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2247D5431F61CA6C00042C65 /* SuperHeroesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D5421F61CA6C00042C65 /* SuperHeroesListPresenter.swift */; };
+		2247D5451F61CA8300042C65 /* SuperHeroesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D5441F61CA8300042C65 /* SuperHeroesView.swift */; };
+		2247D5471F61CAD600042C65 /* SuperHeroesListPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D5461F61CAD600042C65 /* SuperHeroesListPresenterInterface.swift */; };
+		2247D54A1F61CB3C00042C65 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D5491F61CB3C00042C65 /* SuperHero.swift */; };
+		2247D54C1F61CB7800042C65 /* SuperHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D54B1F61CB7800042C65 /* SuperHeroes.swift */; };
+		2247D54F1F61CC2100042C65 /* ObtainSuperHeroesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D54E1F61CC2100042C65 /* ObtainSuperHeroesUseCase.swift */; };
+		2247D5551F61CCD100042C65 /* SuperHeroesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D5541F61CCD100042C65 /* SuperHeroesDataSource.swift */; };
+		2247D5571F61CD1D00042C65 /* MarvelAPIDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D5561F61CD1D00042C65 /* MarvelAPIDataSource.swift */; };
+		2247D55A1F61CE5800042C65 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D5591F61CE5800042C65 /* CustomError.swift */; };
+		2247D55D1F61D8D100042C65 /* SuperHeroesListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D55C1F61D8D100042C65 /* SuperHeroesListDataSource.swift */; };
+		2247D5601F61D93A00042C65 /* SuperHeroesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D55F1F61D93A00042C65 /* SuperHeroesListCell.swift */; };
+		2247D5621F61D96E00042C65 /* SuperHeroesListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2247D5611F61D96E00042C65 /* SuperHeroesListCell.xib */; };
+		22B890C41F61C94000CC6EB3 /* ApplicationAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B890C31F61C94000CC6EB3 /* ApplicationAssembler.swift */; };
+		22E81DD81F61C7C9004638E8 /* SuperHeroesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E81DD71F61C7C9004638E8 /* SuperHeroesListViewController.xib */; };
 		22F9911C1F61C435008E62F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F9911B1F61C435008E62F3 /* AppDelegate.swift */; };
-		22F9911E1F61C435008E62F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F9911D1F61C435008E62F3 /* ViewController.swift */; };
-		22F991211F61C435008E62F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F9911F1F61C435008E62F3 /* Main.storyboard */; };
+		22F9911E1F61C435008E62F3 /* SuperHeroesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F9911D1F61C435008E62F3 /* SuperHeroesListViewController.swift */; };
 		22F991231F61C435008E62F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F991221F61C435008E62F3 /* Assets.xcassets */; };
 		22F991261F61C435008E62F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F991241F61C435008E62F3 /* LaunchScreen.storyboard */; };
+		2D48F560646F5CB5F6800C28 /* Pods_KataSuperheroes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EF6C97B32AF2BCD786A64C /* Pods_KataSuperheroes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B38C613543D8F106CE68B87 /* Pods-KataSuperheroes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSuperheroes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataSuperheroes/Pods-KataSuperheroes.debug.xcconfig"; sourceTree = "<group>"; };
+		2247D5421F61CA6C00042C65 /* SuperHeroesListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroesListPresenter.swift; sourceTree = "<group>"; };
+		2247D5441F61CA8300042C65 /* SuperHeroesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroesView.swift; sourceTree = "<group>"; };
+		2247D5461F61CAD600042C65 /* SuperHeroesListPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroesListPresenterInterface.swift; sourceTree = "<group>"; };
+		2247D5491F61CB3C00042C65 /* SuperHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		2247D54B1F61CB7800042C65 /* SuperHeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroes.swift; sourceTree = "<group>"; };
+		2247D54E1F61CC2100042C65 /* ObtainSuperHeroesUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObtainSuperHeroesUseCase.swift; sourceTree = "<group>"; };
+		2247D5541F61CCD100042C65 /* SuperHeroesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroesDataSource.swift; sourceTree = "<group>"; };
+		2247D5561F61CD1D00042C65 /* MarvelAPIDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarvelAPIDataSource.swift; sourceTree = "<group>"; };
+		2247D5591F61CE5800042C65 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		2247D55C1F61D8D100042C65 /* SuperHeroesListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroesListDataSource.swift; sourceTree = "<group>"; };
+		2247D55F1F61D93A00042C65 /* SuperHeroesListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroesListCell.swift; sourceTree = "<group>"; };
+		2247D5611F61D96E00042C65 /* SuperHeroesListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperHeroesListCell.xib; sourceTree = "<group>"; };
+		22B890C31F61C94000CC6EB3 /* ApplicationAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembler.swift; sourceTree = "<group>"; };
+		22E81DD71F61C7C9004638E8 /* SuperHeroesListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperHeroesListViewController.xib; sourceTree = "<group>"; };
 		22F991181F61C435008E62F3 /* KataSuperheroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataSuperheroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F9911B1F61C435008E62F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22F9911D1F61C435008E62F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22F991201F61C435008E62F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22F9911D1F61C435008E62F3 /* SuperHeroesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroesListViewController.swift; sourceTree = "<group>"; };
 		22F991221F61C435008E62F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22F991251F61C435008E62F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22F991271F61C435008E62F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24EF6C97B32AF2BCD786A64C /* Pods_KataSuperheroes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataSuperheroes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD6D191EDD4FBE106FA3043 /* Pods-KataSuperheroes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSuperheroes.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataSuperheroes/Pods-KataSuperheroes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D48F560646F5CB5F6800C28 /* Pods_KataSuperheroes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2247D5401F61CA4F00042C65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2247D55E1F61D92E00042C65 /* Cell */,
+				2247D55B1F61D8CB00042C65 /* Data Source */,
+				22F9911D1F61C435008E62F3 /* SuperHeroesListViewController.swift */,
+				22E81DD71F61C7C9004638E8 /* SuperHeroesListViewController.xib */,
+				2247D5441F61CA8300042C65 /* SuperHeroesView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2247D5411F61CA5700042C65 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2247D5421F61CA6C00042C65 /* SuperHeroesListPresenter.swift */,
+				2247D5461F61CAD600042C65 /* SuperHeroesListPresenterInterface.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		2247D5481F61CB2F00042C65 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2247D5491F61CB3C00042C65 /* SuperHero.swift */,
+				2247D54B1F61CB7800042C65 /* SuperHeroes.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		2247D54D1F61CC0800042C65 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				2247D54E1F61CC2100042C65 /* ObtainSuperHeroesUseCase.swift */,
+			);
+			name = "Use Case";
+			sourceTree = "<group>";
+		};
+		2247D5531F61CCBE00042C65 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				2247D5541F61CCD100042C65 /* SuperHeroesDataSource.swift */,
+				2247D5561F61CD1D00042C65 /* MarvelAPIDataSource.swift */,
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		2247D55B1F61D8CB00042C65 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				2247D55C1F61D8D100042C65 /* SuperHeroesListDataSource.swift */,
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		2247D55E1F61D92E00042C65 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2247D55F1F61D93A00042C65 /* SuperHeroesListCell.swift */,
+				2247D5611F61D96E00042C65 /* SuperHeroesListCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		22E81DD61F61C76B004638E8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2247D5531F61CCBE00042C65 /* Data Source */,
+				2247D54D1F61CC0800042C65 /* Use Case */,
+				2247D5401F61CA4F00042C65 /* View */,
+				2247D5411F61CA5700042C65 /* Presenter */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
 		22F9910F1F61C435008E62F3 = {
 			isa = PBXGroup;
 			children = (
 				22F9911A1F61C435008E62F3 /* KataSuperheroes */,
 				22F991191F61C435008E62F3 /* Products */,
+				280BA4BAE7DF8DFB8D38474B /* Pods */,
+				D7BE8755310EBB0F9E5F9B39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +162,33 @@
 		22F9911A1F61C435008E62F3 /* KataSuperheroes */ = {
 			isa = PBXGroup;
 			children = (
+				2247D5481F61CB2F00042C65 /* Domain */,
+				22E81DD61F61C76B004638E8 /* List */,
 				22F9911B1F61C435008E62F3 /* AppDelegate.swift */,
-				22F9911D1F61C435008E62F3 /* ViewController.swift */,
-				22F9911F1F61C435008E62F3 /* Main.storyboard */,
+				22B890C31F61C94000CC6EB3 /* ApplicationAssembler.swift */,
 				22F991221F61C435008E62F3 /* Assets.xcassets */,
 				22F991241F61C435008E62F3 /* LaunchScreen.storyboard */,
 				22F991271F61C435008E62F3 /* Info.plist */,
+				2247D5591F61CE5800042C65 /* CustomError.swift */,
 			);
 			path = KataSuperheroes;
+			sourceTree = "<group>";
+		};
+		280BA4BAE7DF8DFB8D38474B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B38C613543D8F106CE68B87 /* Pods-KataSuperheroes.debug.xcconfig */,
+				4AD6D191EDD4FBE106FA3043 /* Pods-KataSuperheroes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7BE8755310EBB0F9E5F9B39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24EF6C97B32AF2BCD786A64C /* Pods_KataSuperheroes.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22F9912A1F61C435008E62F3 /* Build configuration list for PBXNativeTarget "KataSuperheroes" */;
 			buildPhases = (
+				62D9483134AE55E55E7AB1BE /* [CP] Check Pods Manifest.lock */,
 				22F991141F61C435008E62F3 /* Sources */,
 				22F991151F61C435008E62F3 /* Frameworks */,
 				22F991161F61C435008E62F3 /* Resources */,
+				91E68EC19C8C7EC58F478E05 /* [CP] Embed Pods Frameworks */,
+				087E1563F040A5AF5B73AB3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,35 +253,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E81DD81F61C7C9004638E8 /* SuperHeroesListViewController.xib in Resources */,
+				2247D5621F61D96E00042C65 /* SuperHeroesListCell.xib in Resources */,
 				22F991261F61C435008E62F3 /* LaunchScreen.storyboard in Resources */,
 				22F991231F61C435008E62F3 /* Assets.xcassets in Resources */,
-				22F991211F61C435008E62F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		087E1563F040A5AF5B73AB3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataSuperheroes/Pods-KataSuperheroes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62D9483134AE55E55E7AB1BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91E68EC19C8C7EC58F478E05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataSuperheroes/Pods-KataSuperheroes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22F991141F61C435008E62F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22F9911E1F61C435008E62F3 /* ViewController.swift in Sources */,
+				2247D54A1F61CB3C00042C65 /* SuperHero.swift in Sources */,
+				2247D5571F61CD1D00042C65 /* MarvelAPIDataSource.swift in Sources */,
+				2247D54C1F61CB7800042C65 /* SuperHeroes.swift in Sources */,
+				2247D5471F61CAD600042C65 /* SuperHeroesListPresenterInterface.swift in Sources */,
+				2247D54F1F61CC2100042C65 /* ObtainSuperHeroesUseCase.swift in Sources */,
+				2247D55A1F61CE5800042C65 /* CustomError.swift in Sources */,
+				22B890C41F61C94000CC6EB3 /* ApplicationAssembler.swift in Sources */,
+				22F9911E1F61C435008E62F3 /* SuperHeroesListViewController.swift in Sources */,
+				2247D5451F61CA8300042C65 /* SuperHeroesView.swift in Sources */,
+				2247D55D1F61D8D100042C65 /* SuperHeroesListDataSource.swift in Sources */,
+				2247D5431F61CA6C00042C65 /* SuperHeroesListPresenter.swift in Sources */,
+				2247D5551F61CCD100042C65 /* SuperHeroesDataSource.swift in Sources */,
 				22F9911C1F61C435008E62F3 /* AppDelegate.swift in Sources */,
+				2247D5601F61D93A00042C65 /* SuperHeroesListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		22F9911F1F61C435008E62F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22F991201F61C435008E62F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		22F991241F61C435008E62F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,6 +443,7 @@
 		};
 		22F9912B1F61C435008E62F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B38C613543D8F106CE68B87 /* Pods-KataSuperheroes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KataSuperheroes/Info.plist;
@@ -272,6 +456,7 @@
 		};
 		22F9912C1F61C435008E62F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD6D191EDD4FBE106FA3043 /* Pods-KataSuperheroes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KataSuperheroes/Info.plist;
@@ -301,6 +486,7 @@
 				22F9912C1F61C435008E62F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_KataSuperheroes {
+  umbrella header "Pods-KataSuperheroes-umbrella.h"
+
+  export *
+  module * { export * }
+}

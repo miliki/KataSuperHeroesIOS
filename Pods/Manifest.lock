@@ -1,0 +1,39 @@
+PODS:
+  - BothamNetworking (2.0.0):
+    - Result
+    - SwiftyJSON
+  - CryptoSwift (0.6.9)
+  - MarvelAPIClient (0.0.1):
+    - BothamNetworking
+    - CryptoSwift
+    - SwiftyJSON
+  - Result (3.2.3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - MarvelAPIClient (from `https://github.com/Karumi/MarvelApiClient.git`)
+  - SDWebImage
+
+EXTERNAL SOURCES:
+  MarvelAPIClient:
+    :git: https://github.com/Karumi/MarvelApiClient.git
+
+CHECKOUT OPTIONS:
+  MarvelAPIClient:
+    :commit: bce0e94e8c84910a5a502402153917c8b56e8780
+    :git: https://github.com/Karumi/MarvelApiClient.git
+
+SPEC CHECKSUMS:
+  BothamNetworking: ca91ad12113d8fae57aecec3a785008a81fcb22e
+  CryptoSwift: a22f6ba238e9ce4d26ee7bf45b9ed82e7122d4a0
+  MarvelAPIClient: 95c5af8072347c2c68d93c11037ceb35ea6c4868
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 395da87680b40c6c6972e44a6f4fe3b86f11e2d7
+
+COCOAPODS: 1.2.1
