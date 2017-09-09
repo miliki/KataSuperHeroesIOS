@@ -37,4 +37,26 @@ extension SuperHeroesListViewController: SuperHeroesView
     {
         self.title = title
     }
+    
+    func showMainView()
+    {
+        tableView.isHidden = false
+    }
+    
+    func hideMainView()
+    {
+        tableView.isHidden = true
+    }
+    
+    func showLoading()
+    {
+        activityIndicator.startAnimating()
+        activityIndicator.isHidden = false
+    }
+    
+    func hideLoading()
+    {
+        activityIndicator.stopAnimating()
+        activityIndicator.isHidden = true
+    }
 }

@@ -20,6 +20,8 @@ extension SuperHeroesListPresenter: SuperHeroesListPresenterInterface
     {
         view.registerNib(nib: UINib(nibName: String(describing: SuperHeroesListCell.self), bundle: nil), reuseIdentifier: String(describing: SuperHeroesListCell.self))
         view.set(title: "Kata Super Heroes")
+        view.hideMainView()
+        view.showLoading()
         
         obtainSuperHeroesUseCase.execute { (result) in
             switch result {
@@ -31,6 +33,8 @@ extension SuperHeroesListPresenter: SuperHeroesListPresenterInterface
     
     private func didReceiveHeroes(heroes: SuperHeroes)
     {
+        view.hideLoading()
+        view.showMainView()
         dataSource = SuperHeroesListDataSource(superHeroes: heroes)
         view.set(dataSource: dataSource!)
         view.reloadData()
