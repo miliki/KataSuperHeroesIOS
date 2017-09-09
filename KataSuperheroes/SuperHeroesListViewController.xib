@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SuperHeroesListViewController" customModule="KataSuperheroes" customModuleProvider="target">
             <connections>
+                <outlet property="activityIndicator" destination="b6X-IS-vXd" id="7NH-WT-spk"/>
                 <outlet property="tableView" destination="sH8-cI-CQG" id="DaM-ZV-nAJ"/>
                 <outlet property="view" destination="iN0-l3-epB" id="fCo-zB-YxD"/>
             </connections>
@@ -24,11 +25,16 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="b6X-IS-vXd">
+                    <rect key="frame" x="177" y="323" width="20" height="20"/>
+                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="sH8-cI-CQG" secondAttribute="bottom" id="2eJ-F5-xxm"/>
+                <constraint firstItem="b6X-IS-vXd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5tk-vN-Egj"/>
                 <constraint firstItem="sH8-cI-CQG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JvC-03-0zE"/>
+                <constraint firstItem="b6X-IS-vXd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="K33-gP-1V7"/>
                 <constraint firstAttribute="trailing" secondItem="sH8-cI-CQG" secondAttribute="trailing" id="Lnm-1s-Zny"/>
                 <constraint firstItem="sH8-cI-CQG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zvn-PU-OCM"/>
             </constraints>

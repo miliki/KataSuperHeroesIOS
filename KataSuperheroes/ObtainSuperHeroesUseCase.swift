@@ -11,6 +11,10 @@ struct ObtainSuperHeroesUseCase
     
     func execute(withCompletion completion: @escaping (Result<SuperHeroes, CustomError>) -> Void)
     {
-        dataSource.getAll(completion: completion)
+        dataSource.getAll { result in
+            DispatchQueue.main.async {
+                completion(result)
+            }
+        }
     }
 }

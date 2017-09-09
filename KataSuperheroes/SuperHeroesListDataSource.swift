@@ -3,6 +3,7 @@ import UIKit
 class SuperHeroesListDataSource: NSObject
 {
     let superHeroes: SuperHeroes
+    let cellHeight: CGFloat = 180.0
     
     init(superHeroes: SuperHeroes)
     {
@@ -23,5 +24,13 @@ extension SuperHeroesListDataSource: UITableViewDataSource
         cell.superHero = superHeroes[indexPath.row]
         
         return cell
+    }
+}
+
+extension SuperHeroesListDataSource: UITableViewDelegate
+{
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
+    {
+        return cellHeight
     }
 }

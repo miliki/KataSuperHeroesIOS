@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22323CFD1F6443E7000610F0 /* ApplicationViewsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22323CFC1F6443E7000610F0 /* ApplicationViewsConfigurator.swift */; };
 		2247D5431F61CA6C00042C65 /* SuperHeroesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D5421F61CA6C00042C65 /* SuperHeroesListPresenter.swift */; };
 		2247D5451F61CA8300042C65 /* SuperHeroesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D5441F61CA8300042C65 /* SuperHeroesView.swift */; };
 		2247D5471F61CAD600042C65 /* SuperHeroesListPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247D5461F61CAD600042C65 /* SuperHeroesListPresenterInterface.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		0B38C613543D8F106CE68B87 /* Pods-KataSuperheroes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSuperheroes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataSuperheroes/Pods-KataSuperheroes.debug.xcconfig"; sourceTree = "<group>"; };
+		22323CFC1F6443E7000610F0 /* ApplicationViewsConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationViewsConfigurator.swift; sourceTree = "<group>"; };
 		2247D5421F61CA6C00042C65 /* SuperHeroesListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroesListPresenter.swift; sourceTree = "<group>"; };
 		2247D5441F61CA8300042C65 /* SuperHeroesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroesView.swift; sourceTree = "<group>"; };
 		2247D5461F61CAD600042C65 /* SuperHeroesListPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroesListPresenterInterface.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				2247D5481F61CB2F00042C65 /* Domain */,
 				22E81DD61F61C76B004638E8 /* List */,
 				22F9911B1F61C435008E62F3 /* AppDelegate.swift */,
+				22323CFC1F6443E7000610F0 /* ApplicationViewsConfigurator.swift */,
 				22B890C31F61C94000CC6EB3 /* ApplicationAssembler.swift */,
 				22F991221F61C435008E62F3 /* Assets.xcassets */,
 				22F991241F61C435008E62F3 /* LaunchScreen.storyboard */,
@@ -323,6 +326,7 @@
 				2247D55A1F61CE5800042C65 /* CustomError.swift in Sources */,
 				22B890C41F61C94000CC6EB3 /* ApplicationAssembler.swift in Sources */,
 				22F9911E1F61C435008E62F3 /* SuperHeroesListViewController.swift in Sources */,
+				22323CFD1F6443E7000610F0 /* ApplicationViewsConfigurator.swift in Sources */,
 				2247D5451F61CA8300042C65 /* SuperHeroesView.swift in Sources */,
 				2247D55D1F61D8D100042C65 /* SuperHeroesListDataSource.swift in Sources */,
 				2247D5431F61CA6C00042C65 /* SuperHeroesListPresenter.swift in Sources */,

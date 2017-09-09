@@ -9,7 +9,7 @@ struct ApplicationAssembler
         superHeroesListVC.eventHandler = superHeroesListPresenter
         superHeroesListPresenter.view = superHeroesListVC
         
-        window.rootViewController = superHeroesListVC
+        window.rootViewController = UINavigationController(rootViewController: superHeroesListVC)
         window.makeKeyAndVisible()
     }
 }

@@ -10,7 +10,11 @@ class SuperHeroesListCell: UITableViewCell
             avengersIcon.image = #imageLiteral(resourceName: "ic_avengers")
         }
     }
-    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var name: UILabel! {
+        didSet {
+            name.textColor = .white
+        }
+    }
     
     var superHero: SuperHero? {
         didSet {

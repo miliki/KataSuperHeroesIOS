@@ -28,18 +28,24 @@ extension MarvelAPIDataSource: SuperHeroesDataSource
     
     private func didReceiveCharacters(characters: [CharacterDTO]?, completion: @escaping (Result<SuperHeroes, CustomError>) -> Void)
     {
+        guard let characters = characters else {
+            completion(.failure(.notFound))
+            return
+        }
         
+        completion(.success(map(from: characters)))
     }
     
     private func didFailedRetrievingCharacters(error: BothamAPIClientError, completion: @escaping (Result<SuperHeroes, CustomError>) -> Void)
     {
-        
+        completion(.failure(.serverError))
     }
     
     private func map(from charactersDTO: [CharacterDTO]) -> SuperHeroes
     {
-        let superHeroes = charactersDTO.map {
-            SuperHero(id: $0.id, name: $0.name!, description: $0.description, imageURL: nil, isAvenger: true)
+        let superHeroes = charactersDTO.map { (characterDTO: CharacterDTO) -> SuperHero in
+            let image: URL? = characterDTO.thumbnail.flatMap { $0.URL(variant: .landscapeLarge) as? URL}
+            return SuperHero(id: characterDTO.id, name: characterDTO.name!, description: characterDTO.description, imageURL: image, isAvenger: true)
         }
         
         return SuperHeroes(superHeroes: superHeroes)

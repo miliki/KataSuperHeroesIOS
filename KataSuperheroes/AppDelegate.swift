@@ -10,6 +10,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     {
         window = UIWindow(frame: UIScreen.main.bounds)
         ApplicationAssembler().assemble(withWindow: window!)
+        ApplicationViewsConfigurator().setupViewStyle()
+        
         return true
     }
 }

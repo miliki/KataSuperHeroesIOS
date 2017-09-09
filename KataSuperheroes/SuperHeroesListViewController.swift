@@ -3,6 +3,7 @@ import UIKit
 class SuperHeroesListViewController: UIViewController
 {
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     var eventHandler: SuperHeroesListPresenterInterface!
     
@@ -16,8 +17,24 @@ class SuperHeroesListViewController: UIViewController
 
 extension SuperHeroesListViewController: SuperHeroesView
 {
-    func set(dataSource: UITableViewDataSource)
+    func set(dataSource: UITableViewDataSource & UITableViewDelegate)
     {
         tableView.dataSource = dataSource
+        tableView.delegate = dataSource
+    }
+    
+    func reloadData()
+    {
+        tableView.reloadData()
+    }
+    
+    func registerNib(nib: UINib, reuseIdentifier: String)
+    {
+        tableView.register(nib, forCellReuseIdentifier: reuseIdentifier)
+    }
+    
+    func set(title: String)
+    {
+        self.title = title
     }
 }
